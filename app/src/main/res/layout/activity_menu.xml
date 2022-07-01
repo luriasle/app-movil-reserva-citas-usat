@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".iu.MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="@string/label_welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCrearCita"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn_crear_cita" />
+
+    <Button
+        android:id="@+id/btnMisCitas"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn_mis_citas" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_power_off"
+        android:text="@string/btn_logout" />
+</LinearLayout>
